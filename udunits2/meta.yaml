@@ -1,0 +1,18 @@
+package:
+  name: udunits
+  version: 2.2.0
+
+source:
+  fn: udunits-2.2.0.tar.gz 
+  url: https://launchpad.net/ubuntu/+archive/primary/+files/udunits_2.2.0.orig.tar.gz
+
+build:
+  number: 1
+
+requirements:
+  run:
+    - expat
+
+about:
+  home: http://www.unidata.ucar.edu/software/udunits/
+  license: Custom - Attribution and patent protection
